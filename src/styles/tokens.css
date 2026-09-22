@@ -1,0 +1,62 @@
+/*
+  Med-A design tokens — the one place to change colour, spacing, type and assets.
+
+  Theme: black and white. No colour is used to carry meaning anywhere in the
+  app; every status is also stated in words. Replacing the greys below with a
+  brand palette will not change any behaviour.
+*/
+:root {
+  /* Warm off-white through to near-black. */
+  --c-bg: #f7f6f4;
+  --c-surface: #ffffff;
+  --c-surface-2: #f1efec;
+  --c-surface-3: #e7e4e0;
+  --c-border: #d9d5d0;
+  --c-border-strong: #b4afa8;
+
+  --c-text: #17171a;
+  --c-text-muted: #55555c;
+  --c-text-faint: #76767e;
+  --c-text-invert: #ffffff;
+
+  /* The single accent is simply ink. */
+  --c-accent: #17171a;
+  --c-accent-hover: #000000;
+  --c-accent-soft: #eceae7;
+
+  --c-focus: #17171a;
+  --c-focus-halo: #ffffff;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.125rem;
+  --lh-body: 1.6;
+
+  --shadow-sm: 0 1px 2px rgba(23, 23, 26, 0.05);
+  --shadow-md: 0 4px 16px rgba(23, 23, 26, 0.08);
+  --shadow-lg: -8px 0 32px rgba(23, 23, 26, 0.12);
+
+  --sidebar-w: 216px;
+  --maxw: 1020px;
+
+  /* Asset hooks. Replace the file, not the flow. */
+  --asset-logo: url("./assets/logo.svg");
+}
