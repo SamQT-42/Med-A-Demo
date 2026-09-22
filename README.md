@@ -28,6 +28,22 @@ Open **http://localhost:5173**.
 
 Built for 1440×900, and verified to work at 1366×768 with no horizontal scroll.
 
+## Hosted version
+
+A hosted copy of this build is live — the link is in the handover message.
+
+To republish after changing anything (for example after filling in the clinic
+details below):
+
+```bash
+npm run build:artifact
+```
+
+That writes `artifact/` — `index.html` plus `assets/app.js` and
+`assets/app.css` — which is what gets published. The build uses a relative
+base, so the same `dist/` also drops straight onto GitHub Pages, Netlify or any
+static host if the team wants a permanent URL of their own.
+
 ## The demonstration sequence
 
 **Explore a work difficulty → read a relevant resource → inspect a support
